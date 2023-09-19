@@ -1,6 +1,6 @@
 VER="2.3.3"
 #TO GET NAGIOS PLUGINS:
-curl -SL https://github.com/nagios-plugins/nagios-plugins/releases/download/release-$VER/nagios-plugins-$VER.tar.gz | tar -xzf -
+curl -SL https://github.com/nagios-plugins/nagios-plugins/releases/download/release-$VER/nagios-plugins-$VER.tar.gz | tar -xzvf -
 cd nagios-plugins-2.3.3/
 ./configure
 make install
