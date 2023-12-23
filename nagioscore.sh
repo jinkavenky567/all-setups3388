@@ -3,7 +3,7 @@ apt install wget unzip vim curl gcc openssl build-essential libgd-dev libssl-dev
 
 #INSTALL NAGIOS CORE:
 export VER="4.4.6"
-curl -SL https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-$VER/nagios-$VER.tar.gz | tar -xzvf -
+curl -SL https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-$VER/nagios-$VER.tar.gz | tar -zxvf -
 cd /root/nagios-4.4.6/
 
 #TO COMPILE:
